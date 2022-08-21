@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  text-align: left;
+  padding-top: 20px;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #724060;
+  background-color: #fdf3f3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #724060;
+  max-width: 500px;
+  margin-top: 15px;
+}
+.console {
+  position: relative;
+  right: -30px;
+  text-align: center;
+  display: inline-flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  padding-bottom: 20px;
+}
+.temperature {
+  color: #724060;
+  font-size: 30px;
+  cursor: default;
+}
+.temp .active {
+  text-decoration: none;
+  color: #a070a1;
+  cursor: default;
+}
+.temp .sectemp {
+  text-decoration: none;
+  color: #a070a1;
+  cursor: default;
+}
+.button {
+  background-color: #a070a1;
+  color: #fdf3f3;
+  border-radius: 4px;
+  border-color: #a070a1;
+}
+.signature {
+  text-align: center;
+}
+.gitlink {
+  color: #a070a1;
+}
+.wholepage {
+  display: block;
+  margin: 0px auto;
+}
+.picture {
+  position: relative;
+  top: -20px;
+}
+.weather-forecast {
+  position: relative;
+  right: -30px;
 }

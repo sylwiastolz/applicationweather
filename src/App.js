@@ -1,11 +1,21 @@
-import "./App.css";
-
+import "./index.css";
+import Weather from "./Weather";
 function App() {
   return (
-    <div className="container">
-      <div className="App">
-        Hello <button className="btn btn-primary">hi</button>
-      </div>
+    <div className="App">
+      <p class="signature">
+        <strong>
+          <a
+            class="gitlink"
+            href="https://github.com/sylwiastolz/WeatherAppHomework"
+            alt="site"
+            target="blank"
+          >
+            Open-source
+          </a>
+          code by Sylwia Stolz
+        </strong>
+      </p>
     </div>
   );
 }
