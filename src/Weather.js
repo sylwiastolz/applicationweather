@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import axios from "axios";
+
 export default function Weather() {
   return (
     <div classNameName="wholepage">

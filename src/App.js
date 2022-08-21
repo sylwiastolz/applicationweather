@@ -1,5 +1,6 @@
 import "./index.css";
 import Weather from "./Weather";
+import axios from "axios";
 function App() {
   return (
     <div className="App">
