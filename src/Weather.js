@@ -4,12 +4,12 @@ import axios from "axios";
 
 export default function Weather() {
   let [city, setCity] = useState("");
-  let [loaded, setLoaded] = useState(false);
-  let [weather, setWeather] = useState({});
+  let [weather, setWeather] = useState({ ready: false });
 
   function displayWeather(response) {
-    setLoaded(true);
     setWeather({
+      ready: true,
+      date: "Wednesday, 07.11.2023",
       city: response.data.name,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -46,13 +46,13 @@ export default function Weather() {
     </form>
   );
 
-  if (loaded) {
+  if (weather.ready) {
     return (
       <div>
         <h1>
-          <ul>
+          <ul className="text-capitalize">
             <li>{weather.city}</li>
-            <li>Friday 20.08.2022</li>
+            <li>{weather.date}</li>
             <li>{weather.description} </li>
           </ul>
         </h1>
