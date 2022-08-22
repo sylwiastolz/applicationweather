@@ -44,7 +44,7 @@ export default function Weather(props) {
         autoComplete="of"
       />
       <br />
-      <br />
+
       <button>Search</button>
       <br />
       <br />
