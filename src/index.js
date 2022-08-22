@@ -10,7 +10,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="container">
+    <div className="container wholepage">
       <Weather defaultCity="New York" />
 
       <App />
