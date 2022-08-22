@@ -29,8 +29,9 @@ form {
 }
 .temperature {
   color: #724060;
-  font-size: 30px;
+  font-size: 60px;
   cursor: default;
+  line-height: 50px;
 }
 .temp .active {
   text-decoration: none;
@@ -65,4 +66,9 @@ form {
 .weather-forecast {
   position: relative;
   right: -30px;
+}
+.icon {
+  position: relative;
+  top: -25px;
+  left: -10px;
 }
