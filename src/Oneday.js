@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Oneday(props) {
   function maxTemp() {
@@ -27,9 +27,7 @@ export default function Oneday(props) {
   return (
     <div>
       <div>{day()}</div>
-      <div>
-        <img src={props.data.icon} alt="dataiconsearch" />
-      </div>
+      <div>{props.data.weather[0].icon}</div>
       <div>
         {maxTemp()}°C|{minTemp()}°C
       </div>

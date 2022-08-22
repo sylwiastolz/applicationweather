@@ -12,6 +12,7 @@ function App() {
             href="https://github.com/sylwiastolz/applicationweather"
             alt="site"
             target="blank"
+            rel="noopener noreferrer"
           >
             Open-source
           </a>
