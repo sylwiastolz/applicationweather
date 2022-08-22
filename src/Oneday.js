@@ -27,7 +27,9 @@ export default function Oneday(props) {
   return (
     <div>
       <div>{day()}</div>
-      <div>{props.data.weather.icon}</div>
+      <div>
+        <img src={props.data.icon} alt="dataiconsearch" />
+      </div>
       <div>
         {maxTemp()}°C|{minTemp()}°C
       </div>
