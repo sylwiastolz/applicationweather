@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 import FormatedDate from "./FormatedDate";
 import Units from "./Units";
