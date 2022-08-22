@@ -10,7 +10,7 @@ function App() {
           Github
           <a
             class="gitlink"
-            href="https://github.com/sylwiastolz/WeatherAppHomework"
+            href="https://github.com/sylwiastolz/applicationweather"
             alt="site"
             target="blank"
           >
