@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <p class="signature">
         <strong>
+          {" "}
+          Github
           <a
             class="gitlink"
             href="https://github.com/sylwiastolz/WeatherAppHomework"

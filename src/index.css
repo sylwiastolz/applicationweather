@@ -29,7 +29,7 @@ form {
 }
 .temperature {
   color: #724060;
-  font-size: 60px;
+  font-size: 45px;
   cursor: default;
   line-height: 50px;
 }
@@ -70,5 +70,10 @@ form {
 .icon {
   position: relative;
   top: -25px;
-  left: -10px;
+  left: -45px;
+}
+.linkTemp {
+  font-size: 30px;
+  position: relative;
+  top: -10px;
 }
